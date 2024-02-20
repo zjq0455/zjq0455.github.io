@@ -4,7 +4,8 @@ layout: homepage
 
 ## About Me
 
-I'm a <a href="https://med.nyu.edu/departments-institutes/population-health/divisions-sections-centers/biostatistics/" target="_blank"> Biostatistics</a> Ph.D. candidate at <a href="https://www.nyu.edu/" target="_blank"> New York University</a>'s <a href="https://med.nyu.edu/" target="_blank"> Grossman School of Medicine</a>,
+I'm a <a href="https://med.nyu.edu/departments-institutes/population-health/divisions-sections-centers/biostatistics/" target="_blank"> Statistics</a> Ph.D. candidate at <a href="https://www.nyu.edu/" target="_blank"> New York University</a>,
+<!-- 's <a href="https://med.nyu.edu/" target="_blank"> Grossman School of Medicine</a> -->
 <!-- , specifically within the <a href="https://med.nyu.edu/research/sackler-institute-graduate-biomedical-sciences/" target="_blank"> Vilcek institute of Biomedical Sciences</a> and the Department of <a href="https://med.nyu.edu/departments-institutes/population-health/" target="_blank"> Population Health</a>. Under the mentorship of Prof.  -->
 working under the mentorship of Prof.<a href="https://med.nyu.edu/faculty/thaddeus-tarpey" target="_blank"> Thaddeus Tarpey</a>. My research involves developing statistical models that cater to high-dimensional complex data, such as functional and imaging data. It tackles two crucial challenges: First, how to define a metric with self-consistent property to cluster a population into subgroups, based on rich and complex tensor data for each individual. Second, how to develop a semi-supervised clustering algorithm, directed by a specific label, to accurately identify subgroups that align closely with a target subgroup of interest.
 
@@ -18,10 +19,10 @@ Outside of academia, I began my journey as a professional swimmer at the age of 
 
 
 ## Research Interests
-- **Manifold Learning:** positive semi-definite manifolds learning
+- **Manifold Learning:** positive semi-definite manifold learning
 - **Machine Learning:** fairness AI, penalization and augmentation methods
 - **Functional Data Analysis:** functional regression, and clustering methods
-- **High-Dimensional Statistics:** matrix-valued regression and clustering, positive semi-definite matrices estimations
+- **Precision Medicine:** subpopulation identification, and personalized recommendation and treatment effect estimation
 
 
 ## Awards
