@@ -49,7 +49,7 @@ For each participant $i$, let $\mathbf{y}_{ij} \in \mathbb{R}^{\mathscr T}$ be t
 
 The functional connectivity matrix for participant $i$ is the covariance matrix of $\mathbf y_{i}$: $\mathbf{\Sigma}_i = \textbf{Cov}(\mathbf{y}_i) \succeq  \mathbf{0}$
 
-We want to link the functional connectivity matrix to the clinical outcomes using clustering methods.
+We want to link the functional connectivity matrix to the clinical outcomes.
 :::
 
 ::::

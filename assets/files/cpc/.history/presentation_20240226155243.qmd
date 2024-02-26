@@ -18,14 +18,7 @@ format:
     # include-in-header: 
     # add mathtools
     # include-before-body:
-    #   - "mathjax.html"
-    #   - "style.css"
-    #   - "script.js"
-    # include-after-body:
-    #   - "script.js"
-    #   - "style.css"
-    #   - "mathjax.html"
-    #   - "https://cdn.plot.ly/plotly-latest.min.js"
+    
 ---
 
 
@@ -47,9 +40,9 @@ Functional connectivity is defined as the temporal coincidence of spatially dist
 
 For each participant $i$, let $\mathbf{y}_{ij} \in \mathbb{R}^{\mathscr T}$ be the longitudinal measurement of blood oxygen level-dependent (BOLD) signal on the region of interest $j$, $j = 1,2,\ldots,p$.
 
-The functional connectivity matrix for participant $i$ is the covariance matrix of $\mathbf y_{i}$: $\mathbf{\Sigma}_i = \textbf{Cov}(\mathbf{y}_i) \succeq  \mathbf{0}$
+The functional connectivity matrix for participant $i$ is the covariance matrix of $\mathbf y_{i}$:
 
-We want to link the functional connectivity matrix to the clinical outcomes using clustering methods.
+$\mathbf{\Sigma}_i = \textbf{Cov}(\mathbf{y}_i) \succeq  \mathbf{0}$
 :::
 
 ::::
