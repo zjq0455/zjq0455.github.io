@@ -20,10 +20,10 @@ Outside of academia, I began my journey as a professional swimmer at the age of 
 
 
 ## Research Interests
-- **Manifold Learning:** positive semi-definite manifold learning
-- **Machine Learning:** fairness AI, penalization and augmentation methods
-- **Functional Data Analysis:** functional regression, and clustering methods
 - **Causal Inference and Precision Medicine:** causal subpopulation identification, mediation analysis, personalized recommendation based on treatment effect and generated effect modifiers
+- **Machine Learning:** fairness ML, semi-supervised learning
+- **Manifold Learning and Metric Learning:** positive semi-definite manifold learning and metric learning
+- **Functional Data Analysis:** functional regression, and clustering methods
 
 
 ## Awards
