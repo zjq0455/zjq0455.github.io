@@ -23,7 +23,7 @@ Outside of academia, I began my journey as a professional swimmer at the age of 
 - **Manifold Learning:** positive semi-definite manifold learning
 - **Machine Learning:** fairness AI, penalization and augmentation methods
 - **Functional Data Analysis:** functional regression, and clustering methods
-- **Precision Medicine:** subpopulation identification, and personalized recommendation and treatment effect estimation
+- **Causal Inference and Precision Medicine:** causal subpopulation identification, mediation analysis, personalized recommendation based on treatment effect and generated effect modifiers
 
 
 ## Awards
