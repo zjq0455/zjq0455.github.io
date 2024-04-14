@@ -14,11 +14,11 @@
 Functional connectivity is defined as the temporal coincidence of spatially distant neurophysiological events.
 
 
-For each participant $i$, let $\mathbf{y}_{ij} \in \mathbb{R}^{\mathcal T}$ be the longitudinal measurement of blood oxygen level-dependent (BOLD) signal on the region of interest $j$, $j = 1,2,\ldots,p$.
+For each participant $i$, let $\mathbf{y}_{ij} \in \mathbb{R}^{\mathscr T}$ be the longitudinal measurement of blood oxygen level-dependent (BOLD) signal on the region of interest $j$, $j = 1,2,\ldots,p$.
 
-The functional connectivity matrix for participant $i$ is the covariance matrix of $\mathbf y_{i}$:
+The functional connectivity matrix for participant $i$ is the covariance matrix of $\mathbf y_{i}$: $\mathbf{\Sigma}_i = \textbf{Cov}(\mathbf{y}_i) \succeq  \mathbf{0}$
 
-$\mathbf{\Sigma}_i = \textbf{Cov}(\mathbf{y}_i) \succeq  \mathbf{0}$
+We want to link the functional connectivity matrix to the clinical outcomes using clustering methods.
 :::
 
 ::::
@@ -33,8 +33,8 @@ $\mathbf{\Sigma}_i = \textbf{Cov}(\mathbf{y}_i) \succeq  \mathbf{0}$
 ::::{.columns}
 :::{.column width=50%}
 \begin{align*}
-        	& \underset{\mathcal  C}{\text{minimize }}   \underbrace{\frac{1}{n}\sum_{j=1}^m \sum_{k \in \mathcal  C_j} \big\Vert x_k - \bar x_{\mathcal  C_j}\big\Vert^2}_{\text{within cluster sum of squares}} \\ &\textbf{ OR } \\
-        	&\underset{\mathcal  C}{\text{maximize}}    \underbrace{\sum_{i=m} \frac{n_{\mathcal  C_j}}{n}\cdot\big\Vert\bar x_{\mathcal  C_j}\big\Vert^2  }_{\text{between cluster sum of squares}}
+        	& \underset{\mathscr  C}{\text{minimize }}   \underbrace{\frac{1}{n}\sum_{j=1}^m \sum_{k \in \mathscr  C_j} \big\Vert x_k - \bar x_{\mathscr  C_j}\big\Vert^2}_{\text{within cluster sum of squares}} \\ &\textbf{ OR } \\
+        	&\underset{\mathscr  C}{\text{maximize}}    \underbrace{\sum_{i=m} \frac{n_{\mathscr  C_j}}{n}\cdot\big\Vert\bar x_{\mathscr  C_j}\big\Vert^2  }_{\text{between cluster sum of squares}}
     \end{align*}
 Minimize the Euclidean distance between the data points to its closet centroid
   
@@ -102,8 +102,8 @@ fig.show()
 ::::{.columns}
 :::{.column width=50%}
 \begin{align*}
-        	& \underset{\mathcal  C}{\text{minimize }}   \underbrace{\frac{1}{n}\sum_{j=1}^m \sum_{k \in \mathcal  C_j} \big\Vert x_k - \bar x_{\mathcal  C_j}\big\Vert^2}_{\text{within cluster sum of squares}} \\ &\textbf{ OR } \\
-        	&\underset{\mathcal  C}{\text{maximize}}    \underbrace{\sum_{i=m} \frac{n_{\mathcal  C_j}}{n}\cdot\big\Vert\bar x_{\mathcal  C_j}\big\Vert^2  }_{\text{between cluster sum of squares}}
+        	& \underset{\mathscr  C}{\text{minimize }}   \underbrace{\frac{1}{n}\sum_{j=1}^m \sum_{k \in \mathscr  C_j} \big\Vert x_k - \bar x_{\mathscr  C_j}\big\Vert^2}_{\text{within cluster sum of squares}} \\ &\textbf{ OR } \\
+        	&\underset{\mathscr  C}{\text{maximize}}    \underbrace{\sum_{i=m} \frac{n_{\mathscr  C_j}}{n}\cdot\big\Vert\bar x_{\mathscr  C_j}\big\Vert^2  }_{\text{between cluster sum of squares}}
 \end{align*}
 Minimize the Euclidean distance between the data points to its closet centroid
   
@@ -150,10 +150,10 @@ fig.show()
 ::::{.columns}
 :::{.column width=50%}
 \begin{align*}
-    \mathbf u_j & = \mathcal E[\mathbf X \vert \mathbf X \in \mathcal C_j] \\
-    & = \frac{1}{n_j}\sum_{i=1}^{n_j} \mathbf x_i \cdot \delta(\mathbf x_i \in \mathcal C_j),
+    \mathbf u_j & = \mathscr E[\mathbf X \vert \mathbf X \in \mathscr C_j] \\
+    & = \frac{1}{n_j}\sum_{i=1}^{n_j} \mathbf x_i \cdot \delta(\mathbf x_i \in \mathscr C_j),
 \end{align*}
-where the centers of cluster $\mathcal C_j$ is the average of the data points that is classified to the group $\mathcal C_j$.
+where the centers of cluster $\mathscr C_j$ is the average of the data points that is classified to the group $\mathscr C_j$.
 
   
 :::
@@ -580,8 +580,8 @@ fig.show()
 
 :::{.incremental}
 - let $\mathbf \Psi$ be a random positive semi-definite matrix, and $\mathbf \psi$ be an observed PSD matrix
-- let $\mathcal V_q(\mathbb R^p)$ be the Stiefel manifold, the set of $p \times q$ matrices with orthonormal columns
-- hyperplane can be define by $\mathbf B \in \mathcal V_q(\mathbb R^p)$
+- let $\mathscr V_q(\mathbb R^p)$ be the Stiefel manifold, the set of $p \times q$ matrices with orthonormal columns
+- hyperplane can be define by $\mathbf B \in \mathscr V_q(\mathbb R^p)$
 :::
 
 :::{.fragment}
@@ -593,16 +593,16 @@ $$
 
 :::{.fragment}
 
-**Definition 2:** projection of $\mathbf \psi$ onto $\mathbf B\in \mathcal V_q(\mathbb R^p)$ is defined as
+**Definition 2:** projection of $\mathbf \psi$ onto $\mathbf B\in \mathscr V_q(\mathbb R^p)$ is defined as
 \begin{align*}
-	\mathcal P_{\mathbf B}(\mathbf \psi) = \mathbf B  \mathbf\Lambda_{\mathbf B}(\mathbf \psi)   \mathbf B^\intercal
+	\mathscr P_{\mathbf B}(\mathbf \psi) = \mathbf B  \mathbf\Lambda_{\mathbf B}(\mathbf \psi)   \mathbf B^\intercal
 \end{align*}
 
 
 :::{.fragment}
 **Definition 3:** the hyperplane (center) that best approximates $\mathbf \psi$ is defined as
 \begin{align}
-	& \mathbf B(\mathbf \Psi) = \underset{\arg\min} \ \mathcal E \left\{ \left\Vert \mathbf \Psi - \mathcal P_{\mathbf B}\left( \mathbf \Psi \right) \right\Vert_{F}^2 \right\} 
+	& \mathbf B(\mathbf \Psi) = \underset{\arg\min} \ \mathscr E \left\{ \left\Vert \mathbf \Psi - \mathscr P_{\mathbf B}\left( \mathbf \Psi \right) \right\Vert_{F}^2 \right\} 
 \end{align}
 :::
 
