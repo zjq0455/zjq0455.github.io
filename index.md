@@ -18,11 +18,7 @@ I also serve as the reviewer for several conferences and journals such as NeurIP
 
 - **[May. 2024]** One first-author paper has been accepted by **ACL 2024 (Core A\*, CCF A)**, thanks for co-authors! 
 
-<!-- {% include_relative _includes/publications.md %} -->
-
 {% include_relative _includes/projects.md %}
-
-{% include_relative _includes/talks.md %}
 
 
 
