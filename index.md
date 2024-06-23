@@ -11,7 +11,6 @@ I also serve as the reviewer for several conferences and journals such as NeurIP
 
 ## Research Interests
 - **Model Compression:** LLMs quantization.
-- **Few-Shot Learning**
 
 
 ## News
