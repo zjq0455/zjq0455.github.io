@@ -21,6 +21,4 @@ I also serve as the reviewer for several conferences and journals such as NeurIP
 
 {% include_relative _includes/publications.md %}
 
-<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=Xw--NZSRKxWKpFNRCzRaFKr6Fsm-HBtnFfzD4TfPWY8"></script>
-
 
