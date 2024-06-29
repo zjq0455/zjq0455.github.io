@@ -17,7 +17,7 @@ I also serve as the reviewer for several conferences and journals such as NeurIP
 
 ## News
 
-- **[May. 2024]** One first-author paper has been accepted by **ACL 2024 (Core A\*, CCF A)**, thanks for co-authors!
+- **[May. 2024]** One first-author paper has been accepted by **ACL 2024 (Core A\*, CCF-A)**, thanks for co-authors!
 
 - **[Mar. 2024]** I join in HITSZ and become a first-year PhD student!
 
