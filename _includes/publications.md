@@ -15,7 +15,7 @@
 <!--     <div class="title"><a href="https://arxiv.org/pdf/2002.10211.pdf">LRQuant: Learnable and Robust Post-Training Quantization for Large Language Models</a></div> -->
     <div class="title">LRQuant: Learnable and Robust Post-Training Quantization for Large Language Models</div> 
     <div class="author"><strong>Jiaqi Zhao</strong>, Miao Zhang*, Chao Zeng, Ming Wang, Xuebo Liu, Liqiang Nie.</div>
-    <div class="periodical"><em><strong>ACL 2024 (Main Conference)</strong>, May. 2024.</em></div>
+    <div class="periodical"><em><strong>ACL 2024 (Main Conference, Oral)</strong>, May. 2024.</em></div>
 <!--     <div class="links">
       <a href="https://arxiv.org/pdf/2002.10211.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://github.com/Hanchao-Zhang/K-Tensors" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
