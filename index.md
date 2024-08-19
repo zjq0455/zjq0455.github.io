@@ -17,6 +17,8 @@ I also serve as ACL Member and the reviewer for several conferences and journals
 
 ## News
 
+- **[Aug. 2024]** It's my first time to go abroad (Bangkok, Thailand) and give an oral&poster presentation at an international academic conference (ACL 2024). What an amazing experience!
+
 - **[May. 2024]** One first-author paper has been accepted by **ACL 2024 (Core A\*, CCF-A)**, thanks for co-authors!
 
 - **[Mar. 2024]** I join in HITSZ and become a first-year PhD student!
