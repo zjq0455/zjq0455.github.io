@@ -8,7 +8,7 @@ I was born in a happy family in 1998 and my hometown is <a href="https://j.map.b
 
 I'm a first-year Ph.D. student in Computer Science and Technology at <a href="https://www.hitsz.edu.cn/" target="_blank"> Harbin Institute of Technology (Shenzhen) (HITSZ)</a> under the supervision of Prof.<a href="https://miaozhang0525.github.io/" target="_blank"> Miao Zhang</a>. Before HITSZ, I received my banchelor's degree in Jun. 2020 and master's degree in Jun. 2023 under the supervision of Prof.<a href="http://faculty.neu.edu.cn/zhangyunzhou/zh_CN" target="_blank"> Yunzhou Zhang</a> both at <a href="https://neu.edu.cn/" target="_blank"> Northeastern University (Shenyang, China)</a>. Currently my research focuses on **Model Compression**, especially for **Large Language Models**.
 
-I also serve as ACL Member and the reviewer for several conferences and journals such as NeurIPS, EMNLP, TCSVT and TBD.
+I also serve as ACL Member and the reviewer for several conferences and journals such as NeurIPS, ICLR, EMNLP and TCSVT.
 
 
 ## Research Interests
