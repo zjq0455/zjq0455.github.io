@@ -13,6 +13,10 @@
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
 <!--     <div class="title"><a href="https://arxiv.org/pdf/2002.10211.pdf">LRQuant: Learnable and Robust Post-Training Quantization for Large Language Models</a></div> -->
+    <div class="title">PTQ1.61: Push the Real Limit of Extremely Low-Bit Post-Training Quantization Methods for Large Language Models</div> 
+    <div class="author"><strong>Jiaqi Zhao</strong>, Miao Zhang*, Ming Wang, Yuzhang Shang, Kaihao Zhang, Weili Guan, Yaowei Wang, Min Zhang.</div>
+    <div class="periodical"><em><strong>ACL 2025 (Main)</strong>, May. 2025.</em></div>
+<!--     <div class="title"><a href="https://arxiv.org/pdf/2002.10211.pdf">LRQuant: Learnable and Robust Post-Training Quantization for Large Language Models</a></div> -->
     <div class="title">LRQuant: Learnable and Robust Post-Training Quantization for Large Language Models</div> 
     <div class="author"><strong>Jiaqi Zhao</strong>, Miao Zhang*, Chao Zeng, Ming Wang, Xuebo Liu, Liqiang Nie.</div>
     <div class="periodical"><em><strong>ACL 2024 (Main, <font color="red">Oral</font>)</strong>, May. 2024.</em></div>
