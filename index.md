@@ -19,7 +19,7 @@ I also serve as ACL Member and the reviewer for several conferences and journals
 
 - **[May. 2025]** One first-author paper has been accepted by **ACL 2025 (Core A\*, CCF-A)**, thanks for co-authors!
 
-- **[Feb. 2025]** Two first-author paper has been published on Arxiv.
+- **[Feb. 2025]** Two first-author papers has been published on Arxiv.
 
 - **[Aug. 2024]** It's my first time to go abroad (Bangkok, Thailand) and give an oral&poster presentation at an international academic conference (ACL 2024). What an amazing experience!
 
