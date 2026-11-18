@@ -15,7 +15,7 @@
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title">Structure, Subspace and System: Push the Real Limit of Extremely Low-Bit Quantization for MoE-LLMs</div> 
     <div class="author"><strong>Jiaqi Zhao</strong>, Zichen Li, Yixuan Dong, Miao Zhang*, Weili Guan, Liqiang Nie.</div>
-    <div class="periodical"><em><strong>NeurIPS 2026, Sept. 2026.</em></div>
+    <div class="periodical"><em><strong>NeurIPS 2026</strong>, Sept. 2026.</em></div>
 <!--     <div class="links">
       <a href="https://arxiv.org/pdf/2002.10211.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://github.com/Hanchao-Zhang/K-Tensors" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
