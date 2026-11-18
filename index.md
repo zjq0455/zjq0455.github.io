@@ -13,9 +13,6 @@ My research focuses on **Model Quantization, Efficient Inference/Training and LL
 I also serve as ACL Member and the reviewer for several conferences and journals such as NeurIPS, ICLR, ICML, ACL, EMNLP, AAAI and TCSVT.
 
 
-## Research Interests
-- **Model Compression:** LLMs quantization.
-
 
 ## News
 - **[Oct. 2026]** I am glad to win the Chinese National Scholarship!
